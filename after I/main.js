@@ -1,6 +1,4 @@
 
-
-
 function loguear(){
 
 
@@ -28,11 +26,6 @@ function loguear(){
         
     }while(identificar)
     
-    
-    
-
-
-
 }
 
 
