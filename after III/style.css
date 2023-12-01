@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+}
+
+
+.button{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(153, 220, 85);
+    color: aliceblue;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+    transition: all 0.3 ease;
+}
+
+
+button:hover{
+    background-color: blue;
+}
+
+
+.container{
+    background-color: rgb(237, 1, 1);
+}
