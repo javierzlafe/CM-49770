@@ -1,0 +1,38 @@
+
+{
+    "frutas":
+    [
+        {
+          "nombre": "Manzana",
+          "color": "Rojo",
+          "tipo": "Fruta",
+          "origen": "Local",
+          "precio": 1.5
+        },
+        {
+          "nombre": "Plátano",
+          "color": "Amarillo",
+          "tipo": "Fruta",
+          "origen": "Local",
+          "precio": 1.2
+        },
+        {
+          "nombre": "Naranja",
+          "color": "Naranja",
+          "tipo": "Fruta",
+          "origen": "Local",
+          "precio": 1.0
+        },
+        {
+          "nombre": "Pera",
+          "color": "Verde",
+          "tipo": "Fruta",
+          "origen": "Local",
+          "precio": 1.8
+        }
+      ]
+      
+
+
+}
+

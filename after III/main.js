@@ -83,13 +83,13 @@ function agregarProducto(){
     const form = document.createElement("form")  //creo el formulario desde js
     form.innerHTML=`
     <label for="nombre-input">Nombre:</label>
-    <input id= "nombre-input" type="text" step="0.01" required>
+    <input id= "nombre-input" type="text" step="0.01" >
     
     <label for="precio-input">Precio:</label>
-    <input id= "precio-input" type="number" step="0.01" required>
+    <input id= "precio-input" type="number" step="0.01" >
 
     <label for="stock-input">Stock:</label>
-    <input id= "stock-input" type="number" step="0.01" required>
+    <input id= "stock-input" type="number" step="0.01" >
 
     <button type="submit">Agregar</button>
     `
@@ -102,7 +102,12 @@ function agregarProducto(){
         const stockInput = parseInt(document.getElementById("stock-input").value)
 
         if(isNaN(precioInput) || isNaN(stockInput) || nombreInput === ""){
-            alert("por favor ingresa valores validos.")
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "ingresa valores validos",
+                footer: '<a href="#">Why do I have this issue?</a>'
+              });
             return
         }
 
